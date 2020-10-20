@@ -1,4 +1,4 @@
-package main
+package concurrency
 
 func dispatch(concurrencyLimit, total int, loop chan int, execEnd, done chan bool) {
 	var concurrency = 0
